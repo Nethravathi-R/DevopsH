@@ -1,9 +1,9 @@
 #!/bin/bash
 echo "Enter the value of a:"
-read a
+read $1
 echo "Enter the value of b:"
-read b
-if [ $a -lt $b ]
+read $2
+if [ $1 -lt $2 ]
 then
 	echo "The value of a is smaller than b"
 else
