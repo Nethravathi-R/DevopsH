@@ -8,5 +8,6 @@ then
 	echo "The value of a is smaller than b"
 else
 	echo "The value of b is smaller than a"
+ echo"   ----"
 fi
 
